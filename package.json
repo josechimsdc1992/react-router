@@ -6,10 +6,16 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "test": "vitest",
+    "test:ui": "vitest --ui"
   },
   "devDependencies": {
-    "vite": "^5.3.1"
+    "@testing-library/react": "^16.0.0",
+    "@vitest/ui": "^1.6.0",
+    "happy-dom": "^14.12.3",
+    "vite": "^5.3.1",
+    "vitest": "^1.6.0"
   },
   "dependencies": {
     "@vitejs/plugin-react": "^4.3.1",
