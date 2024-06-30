@@ -5,11 +5,7 @@ import Search from "./Components/Search"
 
 export const routes=[
     {
-        path:'/',
-        Component: Home
-    },
-    {
-        path:'/about',
+        path:'/:lang/about',
         Component: About
     },
     {
