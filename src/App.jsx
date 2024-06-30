@@ -1,5 +1,5 @@
 
-import { routes } from "./RoutesConfig.js"
+import { routes } from "./RoutesConfig.jsx"
 import Router from "./Routes.jsx"
 import Page404 from "./Components/Page404.jsx"
 
